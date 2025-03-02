@@ -1,4 +1,4 @@
-# Car's_model_SQL_workbench
+# Car's model
 
 ## Project Scenario
 Mint Classics company, a retailer of classic model cars and other vehicles, is looking at closing one of their storage facilities. 
@@ -13,5 +13,5 @@ As a data analyst, I have been asked to use MySQL Workbench to familiarize mysel
 2. Determine important factors that may influence inventory reorganization/reduction.
 3. Provide analytic insights and data-driven recommendations.
 
-## My challenge
+## Challenge
 My challenge is to conduct an exploratory data analysis to investigate if there are any patterns or themes that may influence the reduction or reorganization of inventory in the Mint Classics storage facilities. 
