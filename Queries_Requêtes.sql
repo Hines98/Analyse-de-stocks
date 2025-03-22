@@ -105,23 +105,7 @@ ORDER BY p.quantityInStock) as D
 GROUP BY warehouseCode, productLine;
 
 
-#9. Les produits non vendus sur les 12 derniers mois
-SELECT 
-    p.productCode, 
-    p.productName, 
-    COALESCE(SUM(od.quantityOrdered), 0) AS total_vendu,
-    p.quantityInStock
-FROM mintclassics.products p
-LEFT JOIN mintclassics.orderdetails od ON p.productCode = od.productCode
-LEFT JOIN mintclassics.orders o ON od.orderNumber = o.orderNumber
-    AND o.orderDate BETWEEN '2004-06-01' AND '2005-05-31' -- période couvrant les 12 derniers mois
-GROUP BY p.productCode, p.productName, p.quantityInStock
-HAVING COALESCE(SUM(od.quantityOrdered), 0) = 0  -- Produits jamais vendus
-   OR COALESCE(SUM(od.quantityOrdered), 0) < 100 -- Produits avec très peu de ventes
-ORDER BY total_vendu ASC;
-
-
-# 10. Evolution des stock au fil des mois
+# 9. Evolution des stock au fil des mois
 WITH ventes AS (
     SELECT 
         od.productCode, 
