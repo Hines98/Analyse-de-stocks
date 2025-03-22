@@ -19,10 +19,10 @@ My challenge is to conduct an exploratory data analysis to investigate if there 
 ## Analyse
 ### 1. Current Stock Distribution
 Currently, the stock distribution per warehouse over the studied period (01-2003 to 05-2005) is as follows:
-East Warehouse (b): 219,183 – Variety of cars
-North Warehouse (a): 131,688 – Mix of motorcycles and airplanes
-West Warehouse (c): 124,880 – Classic car models
-South Warehouse (d): 79,380 – Trains, buses, boats, utility vehicles
+- East Warehouse (b): 219,183 – Variety of cars
+- North Warehouse (a): 131,688 – Mix of motorcycles and airplanes
+- West Warehouse (c): 124,880 – Classic car models
+- South Warehouse (d): 79,380 – Trains, buses, boats, utility vehicles
 A total of 110 product varieties are distributed across these four warehouses, with an average delivery time of 4 days for all locations.
 
 ### 2. Sales and Stock Analysis
