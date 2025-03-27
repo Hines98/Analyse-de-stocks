@@ -1,4 +1,4 @@
-# Analyse des ventes : Modèles de voitures
+# Analyse des ventes : Modèles de véhicules
 
 ## Scénario du projet
 La société Mint Classics, un détaillant de modèles réduits de voitures classiques et d'autres véhicules, envisage de fermer l'un de ses entrepôts.
