@@ -14,7 +14,7 @@ En tant qu'analyste de données, j'ai été chargé d'utiliser MySQL Workbench p
 ## Défi
 Mon défi est de mener une analyse exploratoire des données pour identifier des motifs ou des tendances pouvant influencer la réduction ou la réorganisation des stocks dans les entrepôts de Mint Classics.
 
-#### [Télécharger les requêtes SQL]()
+#### [Télécharger les requêtes SQL](https://github.com/Hines98/Analyse_stocks_vehicules_SQL/blob/main/Queries_Requ%C3%AAtes.sql)
 #### [Télécharger les résultats des requêtes SQL en format PDF](https://github.com/Hines98/Analyse_stocks_vehicules_SQL/blob/main/Queries%20results.pdf)
 
 ## Analyse 
